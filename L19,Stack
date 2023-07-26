@@ -1,0 +1,31 @@
+
+#include<iostream>
+#include<stack>
+using namespace std;
+int main(){
+stack<string>s;
+
+
+s.push("NITIN");
+s.push("RAJA");
+s.push("YADAV");
+
+
+
+cout<<"Top element:"<<s.top();
+s.pop();
+
+cout<<endl;
+cout<<"Top element:"<<s.top();
+
+cout<<endl;
+cout<<"Size of stack:"<<s.size();
+
+
+
+cout<<endl;
+cout<<"empty or not:"<<s.empty();
+//fasle =0;
+
+    return 0;
+}
