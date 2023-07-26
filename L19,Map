@@ -1,0 +1,34 @@
+#include<iostream>
+#include<map>
+using namespace std;
+int main(){
+
+map<int,string>m;
+m[1]="NITIN";
+m[2]="RAJA";
+m[3]="YADAV";
+m.insert({5,"RAM"});
+cout<<"Before erase"<<endl;
+
+
+for(auto i:m)
+{
+    cout<<i.first<<endl;
+}
+cout<<"Is 3 is present-->"<<m.count(3)<<endl;
+cout<<"Is -3 is present-->"<<m.count(-3)<<endl;
+
+
+m.erase(3);
+
+cout<<"Before erase"<<endl;
+for(auto i:m)
+{
+    cout<<i.first<<endl;
+}
+
+
+
+
+
+}
