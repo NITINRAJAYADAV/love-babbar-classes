@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+using namespace std;
+class car{
+    public:
+    string brand;
+    string model;
+    int year;
+};
+int  main(){
+    car carObj1;
+carObj1.brand="Innova";
+carObj1.model="S";
+carObj1.year=2020;
+
+car carObj2;
+carObj2.brand="Verna";
+carObj2.model="S";
+carObj2.year=2020;
+cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year << "\n";
+  cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";
+  return 0;
+}
